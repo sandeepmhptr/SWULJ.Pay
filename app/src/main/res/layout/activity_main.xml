@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal" android:padding="0dp"
+    android:layout_height="wrap_content" android:gravity="fill_horizontal" android:layout_margin="0dp">
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" android:layout_margin="10dp">
+
+        <ImageButton
+            android:id="@+id/imageButton_scan_and_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="scan and pay"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/scan_and_pay"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="scan and pay" >
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" android:layout_margin="10dp">
+
+        <ImageButton
+            android:id="@+id/imageButton_bank_transfer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="bank transfer"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/bank_transfer"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="bank transfer" >
+        </TextView>
+    </FrameLayout>
+
+</LinearLayout>
