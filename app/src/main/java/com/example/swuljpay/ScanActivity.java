@@ -40,7 +40,7 @@ public class ScanActivity extends AppCompatActivity {
     ImageButton imgButton_shop;
     ImageButton imgButton_theatre;
     EditText HTTPResult;
-    String myServer="https://192.168.43.217:8080/abc/abc.jsp/";
+    String myServer="https://swulj.000webhostapp.com/test.php";
     String stackServer = "https://stackoverflow.com/";
     String paramBusNumber = "abc";
 
