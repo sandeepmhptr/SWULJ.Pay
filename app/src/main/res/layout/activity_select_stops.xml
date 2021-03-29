@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/linlayoutBase"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+        <LinearLayout
+            android:id="@+id/linearMain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/id_txt"
+                android:layout_height="wrap_content"
+                android:text="Enter the your ID Card number:"
+                android:layout_width="wrap_content"
+                android:clickable="false"
+                android:hint="Enter the fare between the stops::">
+            </TextView>
+            <EditText
+                android:id="@+id/ID_input"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:hint="Enter the id number:">
+            </EditText>
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                >
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linlayoutButtons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        >
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Source Stop"
+            android:layout_weight="1"
+            >
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
+

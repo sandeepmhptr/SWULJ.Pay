@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.swuljpay">
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,13 +14,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SWULJPay">
-        <uses-library android:name="org.apache.http.legacy" android:required="false" />
+        <activity
+            android:name=".PayActivity"
+            android:label="@string/title_activity_pay"
+            android:theme="@style/Theme.SWULJPay.NoActionBar"></activity>
+        <activity
+            android:name=".DestinationStopActivity"
+            android:label="@string/title_activity_destination_stop"
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
+        <activity
+            android:name=".SelectStopsActivity"
+            android:label="@string/title_activity_select_stops"
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
+        <activity
+            android:name=".QRScannerActivity2"
+            android:label="@string/title_activity_q_r_scanner2"
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
+        <activity
+            android:name=".QRScannerActivity"
+            android:label="@string/title_activity_q_r_scanner"
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity
             android:name=".ScanActivity"
             android:label="@string/title_activity_scan"
-            android:theme="@style/Theme.SWULJPay.NoActionBar"></activity>
-        <activity
-            android:name=".SplashActivity">
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
+        <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,7 +53,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/Theme.SWULJPay.NoActionBar"></activity>
+            android:theme="@style/Theme.SWULJPay.NoActionBar" />
     </application>
 
 </manifest>

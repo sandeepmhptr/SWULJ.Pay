@@ -59,9 +59,17 @@ public class ScanActivity extends AppCompatActivity {
         imgButton_bus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"You download is resumed1",Toast.LENGTH_LONG).show();
-                HTTPConnection1 conn = new HTTPConnection1();
-                conn.execute(stackServer);
+                //Toast.makeText(getApplicationContext(),"You download is resumed1",Toast.LENGTH_LONG).show();
+                //HTTPConnection1 conn = new HTTPConnection1();
+                //conn.execute(stackServer);
+                Intent i=new Intent(ScanActivity.this,
+                        QRScannerActivity2.class);
+                //Intent is used to switch from one activity to another.
+
+                startActivity(i);
+                //invoke the SecondActivity.
+
+                finish();
             }
         });
 
