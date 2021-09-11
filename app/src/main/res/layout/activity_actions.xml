@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal" android:padding="0dp"
+    android:layout_height="wrap_content" android:gravity="fill_horizontal"  android:background="@drawable/round_corner_rectangle"
+    android:layout_margin="1dp">
+
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgButton_bus_buy_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="bank transfer"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/bank_transfer"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="buy bus ticket" >
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgButton_bus_buy_monthly_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="bank transfer"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/bank_transfer"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="buy monthly pass" >
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgButton_bus_buy_daily_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="bank transfer"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/bank_transfer"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="buy daily pass" >
+        </TextView>
+    </FrameLayout>
+
+    <FrameLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content" android:orientation="vertical"
+        android:gravity="fill_vertical" >
+
+        <ImageButton
+            android:id="@+id/imgButton_bus_buy_yearly_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="bank transfer"
+            android:textStyle="bold"
+            android:layout_alignEnd="@+id/tv_question"
+            android:layout_alignRight="@+id/tv_question"
+            android:background="#00ffffff"
+            android:src="@drawable/bank_transfer"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="65dp"
+            android:clickable="false"
+            android:text="buy yearly pass" >
+        </TextView>
+    </FrameLayout>
+
+</LinearLayout>

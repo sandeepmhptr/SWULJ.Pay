@@ -63,7 +63,7 @@ public class ScanActivity extends AppCompatActivity {
                 //HTTPConnection1 conn = new HTTPConnection1();
                 //conn.execute(stackServer);
                 Intent i=new Intent(ScanActivity.this,
-                        QRScannerActivity2.class);
+                       actionsActivity.class);
                 //Intent is used to switch from one activity to another.
 
                 startActivity(i);

@@ -161,7 +161,7 @@ public class QRScannerActivity2 extends AppCompatActivity implements View.OnClic
         protected void onPostExecute(String bitmap) {
             super.onPostExecute(bitmap);
             HTTPResult.setText(result);
-            parseAndNewIntent(result);
+            //parseAndNewIntent(result);
         }
 
     }
